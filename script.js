@@ -1,143 +1,153 @@
 const questions = [
     {
-        question: "What is the value of k to make the expression kx² – 3kx + 9 a perfect square?",
-        options: ["2", "4", "3", "5"],
+        question: "Which of the following mechanisms is an inversion of a slider–crank chain?",
+        options: ["Oldham’s coupling", "Whitworth quick return mechanism", "Elliptical trammel", "Pantograph mechanism"],
         correct: 1
     },
     {
-        question: "Which of the following is the standard acceleration due to gravity in the English unit?",
-        options: ["980.66 fps²", "32.2 fps²", "9.8066 fps²", "32.2 ips²"],
+        question: "What is a unique form of cast iron with worm shaped graphite particles?",
+        options: ["Wrough iron", "Compacted graphite iron", "Mottled Cast iron", "Malleable Cast Iron"],
         correct: 1
     },
     {
-        question: "Two times the mother's age is 8 more than six times her daughter's age. Ten years ago, the sum of their age was 44. What is the daughter's age?",
-        options: ["15 yrs old", "18 yrs old", "12 yrs old", "16 yrs old"],
-        correct: 0
-    },
-    {
-        question: "How many terms of the sequence -9, -6, -3, ..... must be taken so that the sum is 66?",
-        options: ["11", "6", "4", "9"],
-        correct: 0
-    },
-    {
-        question: "A farmer is to plant rice in a rectangular field 30 m by 40 m. He started on the edge and plant around the perimeter. How wide a strip should he plant for each side in order to do half the work?",
-        options: ["5 m", "2.5 m", "3 m", "5.5 m"],
-        correct: 0
-    },
-    {
-        question: "There are 6 geometric means between 4 and 8748. Find the sum of all terms.",
-        options: ["12310", "12130", "13210", "13120"],
+        question: "What is the process of making Bolt heads by forging?",
+        options: ["Fullering", "Drifting", "Swagging", "Upsetting"],
         correct: 3
     },
     {
-        question: "Find the root mean square of 11, 23 and 35.",
-        options: ["25", "27", "26", "24"],
-        correct: 0
+        question: "What do you call the difference between the higher limit and lower limit of size?",
+        options: ["Allowance", "Deviation", "Tolerance", "Interference Zone"],
+        correct: 2
     },
     {
-        question: "Determine the distance travelled by a particle between a time interval of 0.2 sec to 0.3 second if its velocity is v = 12t⁴ + 7/t, where v is in cm/s and t in seconds.",
-        options: ["3.75 cm", "2.84 cm", "2.75 cm", "3.84 cm"],
+        question: "Which of the following is the major alloying element in invar?",
+        options: ["Copper", "Vanadium", "Nickel", "Aluminum"],
         correct: 1
     },
     {
-        question: "A pole cast a shadow 15 m long when the angle of elevation of the sun is 61°. If the pole has lean 15° from the vertical directly toward the sun, what is the length of the pole?",
-        options: ["54.23 m", "48.64 m", "36.84 m", "64.84 m"],
+        question: "Which of the following is available in five slightly different nominal composition for applications which require high strength, good fabricating and fusing qualities, immunity to rust, free machining and a corrosion resistance equivalent to copper?",
+        options: ["Everdur", "Silicon", "Dynavar", "Titanium"],
         correct: 0
     },
     {
-        question: "What is the supplement of an angle whose complement is 62°?",
-        options: ["152°", "118°", "28°", "60°"],
-        correct: 0
-    },
-    {
-        question: "A certain angle has a supplementary five times its compliment. What is the angle?",
-        options: ["186°", "168.5°", "67.5°", "157.5°"],
+        question: "Which of the following superalloys is age-hardenable",
+        options: ["Stellite", "Incoloy", "Nimonic", "Inconel"],
         correct: 2
     },
     {
-        question: "Water is pouring into a swimming pool. After t hours, there are t + √t gallons in the pool. At what rate, in GPM is water pouring into the pool when t = 9 hours?",
-        options: ["0.0194", "1.167", "1.235", "3.6"],
-        correct: 0
-    },
-    {
-        question: "From the top of tower A, the angle of elevation of the top of the tower B is 46°. From the foot of tower B to the foot of tower A is 28°. Both towers are on a level ground. If the height of tower B is 120 m, how high is tower A?",
-        options: ["40.7 m", "44.1 m", "42.3 m", "38.6 m"],
-        correct: 0
-    },
-    {
-        question: "Think of a number. Double the number. Subtract 6 from the result and divide the answer by 2. The quotient will be 20. What is the number you think?",
-        options: ["12", "20", "23", "32"],
-        correct: 2
-    },
-    {
-        question: "Determine the absolute value of resultant vector of the following vectors: F₁ = 4i + 7j + 6k; F₂ = 9i + 2j + 11k; F₃ = 5i – 3j – 8k.",
-        options: ["21", "18", "25", "9"],
-        correct: 0
-    },
-    {
-        question: "The volume of the cube is increasing at a rate of 5 cu. m per minute. Determine the rate at which the surface area is increasing in m²/min, when its side is 10 m.",
-        options: ["½", "1.75", "1.5", "2"],
+        question: "__________ is the range of working temperature for soldering process",
+        options: ["350 C to 480 C", "60 C to 120 C", "220 C to 300 C", "180 C to 250 C"],
         correct: 3
     },
     {
-        question: "Determine the accumulated value of P2000.00 in 5 years if it is invested at 11% compounded quarterly.",
-        options: ["P3,440.00", "P3,404.00", "P3,044.00", "P4,304.00"],
-        correct: 0
-    },
-    {
-        question: "What is the effective rate equivalent of 12% compounded quarterly?",
-        options: ["12.55%", "12.98%", "11.55%", "13%"],
-        correct: 0
-    },
-    {
-        question: "A man borrowed P2,000.00 from a bank and agreed to pay the loan at the end of one year. The bank discounted the loan and give P1950 in cash. Determine the rate of discount.",
-        options: ["3.75%", "3.12%", "2.5%", "1.2%"],
+        question: "How are fullers used?",
+        options: ["Holding the workpiece", "Decreasing the length of the workpiece", "Forming Necks or grooves on cross section of a job", "Supporting the workpiece"],
         correct: 2
     },
     {
-        question: "Find the voltage drop to move 2 C of charge from point A to point B that requires -30 Joules of energy.",
-        options: ["-15 V", "-5 V", "15 V", "5 V"],
-        correct: 0
-    },
-    {
-        question: "If z = √(1 - √(1 - √(1 - ...))), what is the value of z?",
-        options: ["0.453", "0.618", "0.816", "0.681"],
+        question: "Which of the following is an example of drilling",
+        options: ["Abrasive Cutting", "Oblique Cutting", "Orthogonal Cutting", "Simple Cutting"],
         correct: 1
     },
     {
-        question: "Solve the value of x from the following equation: x^{x^{x^{...}}} = 10.",
-        options: ["1.258925", "1.85925", "1.892525", "1.528925"],
+        question: "__________ is also known as tube mills and are commonly used for wat grinding",
+        options: ["Agitator ball mills", "Ring roller mills", "Mechanical impact mills", "Disk mills"],
         correct: 0
     },
     {
-        question: "If vector A is 10 units and vector B, which makes 60° with vector A, is 20 units. What is the difference of vectors A and B?",
-        options: ["15.34 units", "13.45 units", "13.45 units", "17.32 units"],
-        correct: 3
-    },
-    {
-        question: "It is now between 3 and 4 o'clock. In twenty minutes, the minute hand will be as much as the hour hand as it is behind it. What is the time now?",
-        options: ["3:06.36", "3:36.06", "3:03.66", "3:30.66"],
+        question: "Which of the following device is used for transmitting energy in CNC Machine tools",
+        options: ["Recirculating ball screw and nut assembly", "Screw and Nut Assembly", "Pulley and Belt", "Gears"],
         correct: 0
     },
     {
-        question: "Determine the value of ∫_{-1}^{1} (x³ + x⁵ + sin x)dx",
-        options: ["0", "3.1416", "1.75", "infinity"],
+        question: "Aluminum is particularly satisfactory for applications requiring all of the following characteristics except __________",
+        options: ["Good thermal Conductivity", "High Strength", "Good Electrical Conductivity", "Low Weight"],
+        correct: 1
+    },
+    {
+        question: "____________ Is a polymer of chloroprene of the monovinyl acetylene type.",
+        options: ["Butane styrene", "Butyl", "Natural Rubber", "Neoprene"],
+        correct: 3
+    },
+    {
+        question: "Why are Plasticizers added to plastics?",
+        options: ["To increase flexibility of materials", "To enhance cross linking", "To increase ductility of materials", "To increase melting point"],
         correct: 0
     },
     {
-        question: "Determine the diameter of a circle, x² + y² – 6x + 4y – 12 = 0.",
-        options: ["9 units", "11 units", "12 units", "10 units"],
+        question: "A planer mechanism has 8 links and 10 rotary joints. Using a Gubler’s criterion, calculate the number of degree of freedom of the mechanism.",
+        options: ["1", "2", "0", "3"],
+        correct: 0
+    },
+    {
+        question: "The Train Value of a Gear Train is__________",
+        options: ["Equal to the speed ratio", "Double the speed ratio", "Half of the speed ratio", "Reciprocal of the speed ratio"],
         correct: 3
     },
     {
-        question: "If x varies directly as y and inversely as z, and x = 14 when y = 7 and z = 2, find the value of x when z = 4 and y = 16.",
-        options: ["12", "18", "14", "16"],
-        correct: 3
-    },
-    {
-        question: "Determine the absolute value of the complex number 3 + 4i.",
-        options: ["4", "8", "5", "6"],
+        question: "It is an age wrought iron which has mechanical properties comparable to those of heat treated alloy steel of the same order of hardness and resistance to corrosion similar to that of monel. What is this alloy of Nickel?",
+        options: ["R Monel", "S Monel", "KR Monel", "K Monel"],
         correct: 2
+    },
+    {
+        question: "Kevlar epoxy composite is widely used in ___________",
+        options: ["Interior decoration", "Navy", "aerospace", "Automobiles"],
+        correct: 3
+    },
+    {
+        question: "An interrupted quenching process resulting in an austenite to martensite transition is _______.",
+        options: ["Normalizing", "Martempering", "Austenitizing", "Austempering"],
+        correct: 1
+    },
+    {
+        question: "When crank rotates with uniform speed, it has _________ acceleration only.",
+        options: ["Tangential", "Radial", "coriolis", "Gyroscopic"],
+        correct: 1
+    },
+    {
+        question: "Hand shears can be used for cutting sheets up to _________",
+        options: ["0.2 mm", "0.8 mm", "0.4 mm", "1.6 mm"],
+        correct: 3
+    },
+    {
+        question: "The moment diagram for a cantilever beam subjected to bending moment at the end of beam will be ________.",
+        options: ["Rectangle", "Triangle", "elliptical", "Cubic parabola"],
+        correct: 0
+    },
+    {
+        question: "For a simply supported beam on two end support the bending moment is maximum",
+        options: ["Usually on the supports", "Always at midspan", "Where there is No Shear", "Where the deflection is Maximum"],
+        correct: 2
+    },
+    {
+        question: "Generally, In case of pure bending moment is constant throughout and the shear force is ",
+        options: ["Maximum always", "Parabolic in shape", "Always zero", "Having a unit value"],
+        correct: 2
+    },
+    {
+        question: "Which type of key is used for mounting shifting gears in gear boxes?",
+        options: ["Spline", "Saddle", "Square", "Flat"],
+        correct: 0
+    },
+    {
+        question: "Hard shifting of gears is due to",
+        options: ["Leakage of oil from gear box", "Worn out splines on the main shaft", "High speed", "Over loading"],
+        correct: 1
+    },
+    {
+        question: "Which of the following key is preferred for the condition when a large amount of impact type torque is to be transmitted in both direction of rotation?",
+        options: ["Woodruff Key", "Feather Key", "Gib-head Key", "Tangent Key"],
+        correct: 3
+    },
+    {
+        question: "Guest’s Theory of failure is applicable for following type of materials ",
+        options: ["Brittle", "Ductile", "Elastic", "Plastic"],
+        correct: 1
+    },
+    {
+        question: "Rankine Theory of failures is applicable for the following type of materials ",
+        options: ["Brittle", "Ductile", "Elastic", "Plastic"],
+        correct: 0
     }
 ];
 
@@ -175,7 +185,7 @@ function showQuestion(questionData) {
 
     questionData.options.forEach((option, index) => {
         const button = document.createElement('button');
-        button.innerHTML = option; // Changed to innerHTML for potential formatting support
+        button.innerHTML = option;
         button.classList.add('option-btn');
         button.addEventListener('click', () => selectOption(button, index));
         optionsDiv.appendChild(button);
