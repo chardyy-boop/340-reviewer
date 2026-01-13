@@ -22,7 +22,7 @@ const questions = [
     {
         question: "Which of the following is the major alloying element in invar?",
         options: ["Copper", "Vanadium", "Nickel", "Aluminum"],
-        correct: 1
+        correct: 2
     },
     {
         question: "Which of the following is available in five slightly different nominal composition for applications which require high strength, good fabricating and fusing qualities, immunity to rust, free machining and a corrosion resistance equivalent to copper?",
